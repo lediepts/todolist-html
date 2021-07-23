@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="main__top">
+      <div class="title">
+        <span><i class="fas fa-check-square"></i></span>
+        <h2>
+          My Todo-s
+        </h2>
+      </div>
+      <form>
+        <div class="add-new">
+          <input type="text" placeholder="Add new ...">
+          <div>
+            <i class="far fa-calendar-alt"></i>
+            <input type="button" value="Add">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="main__bottom">
+      <div class="control">
+        <span>Filter</span>
+        <div class="select-custom">
+          <select>
+            <option>All</option>
+            <option>Completed</option>
+            <option>Active</option>
+            <option>Has due date</option>
+          </select>
+          <div>
+            <i class="fas fa-sort-up"></i>
+            <i class="fas fa-sort-down"></i>
+          </div>
+        </div>
+        <span>Sort</span>
+        <div class="select-custom">
+          <select>
+            <option>Added date</option>
+            <option>Due date</option>
+          </select>
+          <div>
+            <i class="fas fa-sort-up"></i>
+            <i class="fas fa-sort-down"></i>
+          </div>
+        </div>
+        <div class="sort">
+          <i class="fas fa-sort-amount-down-alt"></i>
+          <!-- <i class="fas fa-sort-amount-up-alt"></i> -->
+        </div>
+      </div>
+      <div class="content">
+        <div>
+          <input type="checkbox">
+          <p>Buy groceries for next week</p>
+          <div>
+            <div class="action">
+              <div>
+                <i class="fas fa-pencil-alt"></i>
+                <i class="far fa-trash-alt"></i>
+              </div>
+              <div>
+                <i class="fas fa-info-circle"></i>
+                <span>28th Jun 2020</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <input type="checkbox">
+          <p>Buy groceries for next week</p>
+          <div>
+            <div class="action">
+              <div>
+                <i class="fas fa-pencil-alt"></i>
+                <i class="far fa-trash-alt"></i>
+              </div>
+              <div>
+                <i class="fas fa-info-circle"></i>
+                <span>28th Jun 2020</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
